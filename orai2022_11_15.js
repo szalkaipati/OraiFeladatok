@@ -1,17 +1,9 @@
-/*var list=[5,3,9,8,10]
-console.log("Tömb ekemeunek a száma:",lists.length)
 
-let hazi =    [
-]*/
 function feltolt()
 let tobbDimTomb=[]
 for(let i = 0; i < 10; i++){
     let sor=[]
     for(let j = 0; j < 10; j++){
-            /*sor.j=i*j;
-            {
-                //htmles resz scriptje
-            }*/
             if (i+j-1===10){
                 sor[j]="<td id='piros'>"+"1"+"</td>"
             }else if(i===10) {
