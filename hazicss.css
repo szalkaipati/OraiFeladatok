@@ -1,0 +1,11 @@
+body{
+    background-color: lightslategrey;
+}
+.tablazat{
+    background-color: azure;
+    border-style: dotted;
+    border: 2px;
+}
+th{
+    border:1px, solid, black;
+}
