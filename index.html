@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" integrity="sha512-kDmbIQZ10fxeKP5NSt3+tz77HO42IJiS+YPIirOIKTdokl4LtuXYo3NNvq9mTAF+rzdV1plp0sm9E6nvtVpnFQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Document</title>
+    <title>Maci aruháza</title>
 </head>
 <body>
-    <p id="tan"></p>
-    <button onclick="document.getElementById('tan').innerHTML=tanulo.kiirInnerHtml()">kiir</button>
+    <header>
+        <i class="fi-align-right" id="vegburger"></i>
+        <i class="fi-shoppimg-cart" id="cart-icon"></i>
+    </header>
+    <nav id="nav">
+    <ul>
+        <li><a href="#"><i class="fi-home"></i>Home</a></li>
+        <li><a href="#"><i class="fi-target"></i>Services</a></li>
+        <li><a href="#"><i class="fi-at-sign"></i>Contact</a></li>
+    </ul>
+    </nav>
+    <main>
+        <h1>Maci Bolt</h1>
+        <section id="product"></section>
+    </main>
+    <aside id="cart.content">
+        <h1>Kosár</h1>
+        <ul id="cart-item"></ul>
+    </aside>
+    <script src="app.js"></script>
 </body>
 </html>
